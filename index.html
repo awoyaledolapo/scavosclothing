@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Sidebar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">Scavos</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="login nav-links ">
+            <a href="#">Login</a>
+           <button>Register</button>
+        </div>
+        <div class="hamburger" onclick="toggleSidebar()">
+            &#9776;
+        </div>
+    </div>
+    <div class="sidebar" id="sidebar">
+        
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <div class="login-sidebar">
+        <a href="#">Login</a>
+        <a href="#">   <button style="color: black;">Register</button></a>
+    </div>
+    </div>
+    <div id="main">
+       <div class="partA">
+         <h1 class="text-above">
+            Always Look Good
+         </h1>
+         <p class="text-under">
+          with scavo always look good,scavo brings good fashion to you.sign up with us 
+          and we can even bring it to your door step .
+         </p>
+         <button class="btn2">Learn more</button>
+       </div>
+       <div class="partB">
+    <img src="https://media.istockphoto.com/id/2004615224/photo/cute-puppy-and-bright-bow-tie-close-up-indoors.webp?a=1&b=1&s=612x612&w=0&k=20&c=EA9_zVbcQRhi9f-7p38bKH24OfK-unG9Kd6hhPnmc0I=" alt="">
+       </div> 
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
